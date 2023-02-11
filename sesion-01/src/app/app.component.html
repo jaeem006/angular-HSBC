@@ -1,0 +1,60 @@
+<!-- <h2>Hola mundo</h2>
+
+<h3>Uno</h3>
+<app-contenedor-formulario></app-contenedor-formulario>
+
+<h3>Dos</h3>
+<app-contenedor-formulario></app-contenedor-formulario>
+
+<h3>Tres</h3>
+<app-contenedor-formulario></app-contenedor-formulario> -->
+
+<h2>{{"!!!" + mensaje}}</h2>
+
+{{2 + 6}}
+
+{{num1 + num2}}
+
+{{ bol ? "hola" : "Adios"}}
+
+{{ num1 > num2 ? "1 es mayor" : "dos es mayor"}}
+
+{{ foo() }}
+
+<br>
+
+<img [src]="src" [alt]="alt">
+
+<br>
+
+<button (click)="efecto()">Haz click</button>
+
+<br>
+<!-- NgModel -->
+<input type="text" [(ngModel)]="valor">
+<h4>{{valor}}</h4>
+
+<br>
+<ul *ngIf="super">
+	<li>Pan</li>
+	<li>arroz</li>
+	<li>CEREAL</li>
+	<li>leche</li>
+</ul>
+
+<br>
+
+<ul>
+	<li *ngFor="let elemento of listaDelSuper">{{elemento}}</li>
+</ul>
+
+<br>
+
+<p [ngClass]="{'class1' : condicion1, 'class2' : condicion2}">Hola de nuevo!!</p>
+
+
+
+
+
+
+
