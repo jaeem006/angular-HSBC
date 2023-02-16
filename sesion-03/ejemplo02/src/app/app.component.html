@@ -1,0 +1,7 @@
+<h1>HOLAAA</h1>
+
+<a [routerLink]="['productos']">Productos</a>
+<br>
+<button [routerLink]="['usuarios', 7, 'Javier']" *ngIf="isLogged">Usuarios</button>
+
+<router-outlet></router-outlet>

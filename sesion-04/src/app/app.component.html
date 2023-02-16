@@ -1,0 +1,13 @@
+<h1>Perfil del usuario</h1>
+
+<h6>Nombre: {{usuario.nombre}}</h6>
+<h6>Edad: {{usuario.edad}}</h6>
+<h6>Curso {{usuario.curso}}</h6>
+
+<h1>Beers</h1>
+
+<div *ngFor="let beer of beerData">
+  <h3>{{beer.name}}</h3>
+  <h5>{{beer.price}}</h5>
+  <img src={{beer.image}}>
+</div>
